@@ -93,6 +93,14 @@
       }
       if (d.nom_entreprise) {
         document.querySelectorAll('.brand-name').forEach(function (el) { el.textContent = d.nom_entreprise; });
+        /* Logo en deux morceaux (« GPM » en couleur + « Couverture » en noir) :
+           on le resynchronise depuis le CMS, sinon un changement de nom ne
+           toucherait que l'accueil et les pages intérieures garderaient l'ancien. */
+        var _mots = d.nom_entreprise.trim().split(/\s+/);
+        if (_mots.length > 1) {
+          document.querySelectorAll('.brand-accent').forEach(function (el) { el.textContent = _mots[0]; });
+          document.querySelectorAll('.brand-dark').forEach(function (el) { el.textContent = _mots.slice(1).join(' '); });
+        }
       }
     })
     .catch(function () { /* les valeurs écrites en dur restent affichées */ });
