@@ -1,0 +1,273 @@
+{
+  "nom_entreprise": "GPM Couverture",
+  "type_artisan": "Couvreur",
+  "ville": "Manneville-ès-Plains",
+  "telephone_affiche": "06 69 10 35 53",
+  "telephone_tel": "+33669103553",
+  "annee": "2026",
+  "hero": {
+    "image": "images/hero-bg.webp",
+    "titre": "Couvreur en Seine-Maritime : une toiture saine et durable, à Manneville-ès-Plains",
+    "description": "Rénovation, réparation, zinguerie, démoussage, façade et peinture — GPM Couverture intervient à Manneville-ès-Plains, sur le Pays de Caux et la Côte d'Albâtre (76)."
+  },
+  "apropos": {
+    "image": "images/apropos.webp",
+    "texte": "GPM Couverture est votre couvreur de proximité à Manneville-ès-Plains, entre Saint-Valery-en-Caux et Veules-les-Roses, au cœur du Pays de Caux. Nous protégeons les maisons cauchoises avec une exigence simple : un toit sain, étanche et durable, quel que soit le matériau. Tuile plate, ardoise naturelle, tuile mécanique, essentage de façade, zinc ou bac acier — nous intervenons sur toutes les couvertures que l'on rencontre dans le secteur, des longères en brique et silex aux pavillons du plateau et aux maisons de bord de mer.\n\nCouverts par une garantie décennale et une responsabilité civile professionnelle, nous menons chaque chantier avec sérieux : diagnostic gratuit sur place, devis clair poste par poste, délais annoncés respectés et chantier laissé propre. À trois kilomètres du littoral, une toiture encaisse le vent d'ouest, la pluie et les embruns : nous soignons particulièrement les fixations, les rives et l'évacuation des eaux. Au-delà de la couverture, nous réalisons aussi la zinguerie, le démoussage, le ravalement de façade et les travaux de peinture intérieure et extérieure — vous n'avez qu'un seul interlocuteur pour l'ensemble de votre rénovation. De la fuite urgente à la réfection complète, nous vous conseillons sans jargon et sans mauvaise surprise.",
+    "badges": [
+      "Garantie décennale",
+      "Devis gratuit",
+      "Artisan local en Seine-Maritime",
+      "Intervention rapide"
+    ]
+  },
+  "stats": [
+    {
+      "valeur": "15",
+      "label": "Ans d'expérience"
+    },
+    {
+      "valeur": "250",
+      "label": "Réalisations"
+    }
+  ],
+  "services": [
+    {
+      "titre": "Rénovation et Réparation Toiture",
+      "description": "Inspection, diagnostic précis et travaux de remise à neuf pour prolonger la vie de votre toit et assurer son étanchéité.",
+      "image": "images/service1.jpg",
+      "page": "renovation-reparation-toiture.html"
+    },
+    {
+      "titre": "Pose de Toiture Neuve",
+      "description": "Installation complète de toitures traditionnelles ou modernes, avec des matériaux adaptés à vos besoins et au climat local.",
+      "image": "images/service2.jpg",
+      "page": "pose-toiture-neuve.html"
+    },
+    {
+      "titre": "Entretien et Démoussage",
+      "description": "Nettoyage professionnel, traitement préventif et entretien régulier pour préserver l'intégrité et l'esthétique de votre couverture.",
+      "image": "images/service3.jpg",
+      "page": "entretien-demoussage.html"
+    },
+    {
+      "titre": "Peinture Intérieure",
+      "description": "Nous réalisons tous vos travaux de peinture pour murs, plafonds et boiseries. Choix de couleurs, conseils personnalisés et finitions impeccables pour un intérieur qui vous ressemble.",
+      "image": "images/service4.webp",
+      "page": "peinture-interieure.html"
+    },
+    {
+      "titre": "Peinture Extérieure",
+      "description": "Protection et embellissement de vos façades, boiseries et ferronneries. Des produits résistants aux intempéries pour une durabilité et un esthétisme préservés.",
+      "image": "images/service5.jpg",
+      "page": "peinture-exterieure.html"
+    },
+    {
+      "titre": "Travaux de zinguerie",
+      "description": "Installation et réparation de gouttières, chéneaux et éléments en zinc pour une évacuation optimale des eaux pluviales et une protection accrue de votre façade.",
+      "image": "images/service6.jpg",
+      "page": "zinguerie.html"
+    },
+    {
+      "titre": "Nettoyage et ravalement façade",
+      "description": "Redonnez un coup de jeune à vos murs extérieurs. Nous nettoyons et traitons vos façades pour une protection durable et une esthétique renouvelée.",
+      "image": "images/service7.jpg",
+      "page": "nettoyage-ravalement-facade.html"
+    },
+    {
+      "titre": "Installation et remplacement de Velux",
+      "description": "Pose et remplacement de fenêtres de toit Velux pour apporter plus de lumière et améliorer votre confort.",
+      "image": "images/service8.jpg",
+      "page": "pose-velux.html"
+    },
+    {
+      "titre": "Peinture de toiture",
+      "description": "Redonnez de l'éclat à votre toiture grâce à une peinture professionnelle résistante aux intempéries et aux UV.",
+      "image": "images/service9.jpg",
+      "page": "peinture-toiture.html"
+    }
+  ],
+  "avis": {
+    "google_score": "5.0",
+    "nb_avis": "3 avis",
+    "temoignages": [
+      {
+        "initiale": "L",
+        "nom": "Laurent Delahaye",
+        "texte": "Fuite sur la toiture repérée et réparée en deux jours. Devis clair, prix conforme, et le chantier a été laissé propre. Je recommande sans hésiter."
+      },
+      {
+        "initiale": "C",
+        "nom": "Corinne Lefebvre",
+        "texte": "Démoussage complet de la toiture et reprise des gouttières sur notre maison près de Saint-Valery. Travail soigné, équipe ponctuelle et de bon conseil."
+      },
+      {
+        "initiale": "S",
+        "nom": "Sébastien Marais",
+        "texte": "Réfection complète du toit en tuile plate, avec pose de deux fenêtres de toit. Délai tenu malgré la météo, très bon contact du début à la fin."
+      }
+    ]
+  },
+  "galerie": [
+    {
+      "image": "images/gallery1.jpg",
+      "legende": "Nettoyage et ravalement de façade — avant / après"
+    },
+    {
+      "image": "images/gallery2.jpg",
+      "legende": "Rénovation et peinture d'escalier extérieur — avant / après"
+    },
+    {
+      "image": "images/gallery3.jpg",
+      "legende": "Nettoyage et démoussage de toiture — avant / après"
+    },
+    {
+      "image": "images/gallery4.jpg",
+      "legende": "Peinture de muret et ferronnerie — avant / après"
+    },
+    {
+      "image": "images/gallery5.jpg",
+      "legende": "Nettoyage de façade et pose de rives en zinc — avant / après"
+    },
+    {
+      "image": "images/gallery6.jpg",
+      "legende": "Peinture de toiture en fibrociment — avant / après"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Combien coûte une rénovation de toiture en Seine-Maritime ?",
+      "reponse": "Le prix dépend de la surface, du matériau et de l'état de la charpente. À titre indicatif, une réfection complète se situe le plus souvent entre 80 et 200 € par m², fournitures et pose comprises : la tuile mécanique est en bas de cette fourchette, la tuile plate ou l'ardoise naturelle d'Angers en haut. Seule une visite sur place permet un prix ferme, et notre devis est gratuit et sans engagement."
+    },
+    {
+      "question": "Intervenez-vous en urgence en cas de fuite ?",
+      "reponse": "Oui. Les fuites actives et les dégâts après un coup de vent sur la Côte d'Albâtre sont traités en priorité, à Manneville-ès-Plains et dans tout le secteur. Nous sécurisons d'abord la toiture pour stopper l'infiltration, puis nous planifions la réparation définitive."
+    },
+    {
+      "question": "Dans quelles communes intervenez-vous ?",
+      "reponse": "Nous intervenons sur tout le Pays de Caux et la Côte d'Albâtre, depuis Manneville-ès-Plains : Saint-Valery-en-Caux, Veules-les-Roses, Cany-Barville, Doudeville, Néville, Ourville-en-Caux, Luneray, Blosseville, Saint-Pierre-le-Viger, Fontaine-le-Dun, Yvetot, Fécamp, Dieppe, Sassetot-le-Mauconduit et Offranville, ainsi que les communes alentour."
+    },
+    {
+      "question": "Le vent et les embruns abîment-ils plus vite les toitures près de la mer ?",
+      "reponse": "Oui, nettement. À quelques kilomètres du littoral, le sel attaque les fixations métalliques et le vent d'ouest soulève les éléments mal ancrés, en particulier en rive et au faîtage. Nous utilisons des fixations adaptées et nous renforçons systématiquement les points sensibles sur les chantiers exposés."
+    },
+    {
+      "question": "Faites-vous aussi la peinture et le ravalement de façade ?",
+      "reponse": "Oui. En plus de la couverture, nous réalisons la peinture intérieure et extérieure, le nettoyage et le ravalement de façade, ainsi que la peinture de toiture. Cela permet de traiter toit et façades sur un même chantier, avec un seul interlocuteur."
+    },
+    {
+      "question": "Combien de temps dure une rénovation de toiture ?",
+      "reponse": "La durée dépend de la surface et de la complexité du toit. Une rénovation standard prend de quelques jours à deux semaines, selon la météo — un paramètre à ne pas négliger sur le plateau cauchois — et le type de couverture."
+    },
+    {
+      "question": "Proposez-vous des devis gratuits ?",
+      "reponse": "Oui, nos devis sont détaillés, gratuits et sans engagement. Nous nous déplaçons à Manneville-ès-Plains et dans tout le Pays de Caux pour évaluer vos travaux sur place."
+    }
+  ],
+  "contact_description": "Contactez GPM Couverture pour un devis gratuit et sans engagement. Nous intervenons à Manneville-ès-Plains et dans tout le Pays de Caux.",
+  "footer_description": "Couvreur à Manneville-ès-Plains, en Seine-Maritime (76). Rénovation et réparation de toiture, pose de couverture neuve, zinguerie, démoussage, façade et peinture sur tout le Pays de Caux.",
+  "design": {
+    "palette": "orange",
+    "nav_style": "transparent",
+    "stats_style": "classique"
+  },
+  "horaires": {
+    "visible": true,
+    "adresse": "Manneville-ès-Plains (76460), Seine-Maritime",
+    "lat": 49.8617,
+    "lng": 0.7139,
+    "jours": [
+      {
+        "nom": "Lundi",
+        "ferme": false,
+        "matin_debut": "08:00",
+        "matin_fin": "12:00",
+        "am_debut": "14:00",
+        "am_fin": "18:00",
+        "am_active": true
+      },
+      {
+        "nom": "Mardi",
+        "ferme": false,
+        "matin_debut": "08:00",
+        "matin_fin": "12:00",
+        "am_debut": "14:00",
+        "am_fin": "18:00",
+        "am_active": true
+      },
+      {
+        "nom": "Mercredi",
+        "ferme": false,
+        "matin_debut": "08:00",
+        "matin_fin": "12:00",
+        "am_debut": "14:00",
+        "am_fin": "18:00",
+        "am_active": true
+      },
+      {
+        "nom": "Jeudi",
+        "ferme": false,
+        "matin_debut": "08:00",
+        "matin_fin": "12:00",
+        "am_debut": "14:00",
+        "am_fin": "18:00",
+        "am_active": true
+      },
+      {
+        "nom": "Vendredi",
+        "ferme": false,
+        "matin_debut": "08:00",
+        "matin_fin": "12:00",
+        "am_debut": "14:00",
+        "am_fin": "18:00",
+        "am_active": true
+      },
+      {
+        "nom": "Samedi",
+        "ferme": false,
+        "matin_debut": "08:00",
+        "matin_fin": "12:00",
+        "am_debut": "14:00",
+        "am_fin": "18:00",
+        "am_active": true
+      },
+      {
+        "nom": "Dimanche",
+        "ferme": true,
+        "matin_debut": "08:00",
+        "matin_fin": "12:00",
+        "am_debut": "14:00",
+        "am_fin": "18:00",
+        "am_active": true
+      }
+    ]
+  },
+  "seo": {
+    "title": "Couvreur en Seine-Maritime (76) — Manneville-ès-Plains, Saint-Valery-en-Caux, Fécamp | GPM Couverture",
+    "description": "GPM Couverture, couvreur à Manneville-ès-Plains : rénovation et réparation de toiture, pose de couverture neuve, zinguerie, démoussage, ravalement de façade et peinture sur tout le Pays de Caux et la Côte d'Albâtre. Devis gratuit au 06 69 10 35 53.",
+    "keywords": "couvreur Manneville-ès-Plains, couvreur Seine-Maritime, couvreur Pays de Caux, rénovation toiture 76, réparation toiture Saint-Valery-en-Caux, zinguerie Seine-Maritime, démoussage toiture Pays de Caux, ravalement façade 76, pose Velux Manneville-ès-Plains, peinture toiture Seine-Maritime, couvreur Fécamp, couvreur Yvetot, couvreur Dieppe, couvreur Cany-Barville, couvreur Veules-les-Roses",
+    "email": "",
+    "code_postal": "76460",
+    "departement": "Seine-Maritime",
+    "geo_region": "FR-76",
+    "lat": 49.8617,
+    "lng": 0.7139,
+    "villes": [
+      "Manneville-ès-Plains",
+      "Saint-Valery-en-Caux",
+      "Veules-les-Roses",
+      "Cany-Barville",
+      "Doudeville",
+      "Néville",
+      "Ourville-en-Caux",
+      "Luneray",
+      "Blosseville",
+      "Saint-Pierre-le-Viger",
+      "Fontaine-le-Dun",
+      "Yvetot",
+      "Fécamp",
+      "Dieppe",
+      "Sassetot-le-Mauconduit",
+      "Offranville"
+    ]
+  }
+}

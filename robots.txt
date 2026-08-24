@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+# (pas d'espace admin sur ce site)
+
+Sitemap: https://gpm-couverture.pages.dev/sitemap.xml
