@@ -163,7 +163,7 @@
   }
   </script>
 
-  <link rel="preload" as="image" href="images/hero-bg.webp" />
+  <link rel="preload" as="image" href="images/hero-bg.webp" fetchpriority="high" />
   <!-- SEO-BLOCK-END -->
   <!-- FAVICON (logo du site dans l'onglet du navigateur) -->
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
@@ -984,7 +984,7 @@
 </nav>
 
 <!-- HERO -->
-<section id="hero">
+<section id="hero" style="background-image:url('images/hero-bg.webp')">
   <div class="hero-inner">
     <span class="hero-eyebrow fade-up" style="--delay:.1s">
       <span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--primary);flex-shrink:0"></span>
@@ -1057,7 +1057,7 @@
       </div>
     </div>
     <div class="about-photo">
-      <img id="aboutImg" src="" alt="" loading="lazy" />
+      <img id="aboutImg" src="images/apropos.webp" alt="GPM Couverture — couvreur à Manneville-ès-Plains" loading="lazy" />
     </div>
   </div>
 </section>
@@ -1065,10 +1065,10 @@
 <!-- STATS -->
 <section id="stats">
   <div class="stats-inner" id="statsInner"><div class="stat-block">
-        <div class="stat-val" data-target="15" data-prefix="">0</div>
+        <div class="stat-val" data-target="15" data-prefix="">15</div>
         <div class="stat-lbl">Ans d'expérience</div>
       </div><div class="stats-divider"></div><div class="stat-block">
-        <div class="stat-val" data-target="250" data-prefix="+">0</div>
+        <div class="stat-val" data-target="250" data-prefix="+">+250</div>
         <div class="stat-lbl">Réalisations</div>
       </div></div>
 </section>
@@ -1144,19 +1144,19 @@
     <p>Nous réalisons la <strong>rénovation de toiture</strong>, la <strong>réparation d'urgence</strong>, la <strong>pose de couverture neuve</strong>, la <strong>zinguerie</strong>, le <strong>démoussage</strong>, le <strong>ravalement de façade</strong> et les <strong>travaux de peinture</strong> dans toutes ces communes. Le déplacement pour établir votre devis est gratuit et sans engagement.</p>
     <div class="villes">
       <a class="ville-chip" href="zones-intervention.html"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Manneville-ès-Plains</a>
-      <a class="ville-chip" href="zones-intervention.html">Saint-Valery-en-Caux</a>
+      <a class="ville-chip" href="couvreur-saint-valery-en-caux.html">Saint-Valery-en-Caux</a>
       <a class="ville-chip" href="zones-intervention.html">Veules-les-Roses</a>
-      <a class="ville-chip" href="zones-intervention.html">Cany-Barville</a>
+      <a class="ville-chip" href="couvreur-cany-barville.html">Cany-Barville</a>
       <a class="ville-chip" href="zones-intervention.html">Doudeville</a>
-      <a class="ville-chip" href="zones-intervention.html">Néville</a>
+      <a class="ville-chip" href="couvreur-neville.html">Néville</a>
       <a class="ville-chip" href="zones-intervention.html">Ourville-en-Caux</a>
-      <a class="ville-chip" href="zones-intervention.html">Luneray</a>
+      <a class="ville-chip" href="couvreur-luneray.html">Luneray</a>
       <a class="ville-chip" href="zones-intervention.html">Blosseville</a>
       <a class="ville-chip" href="zones-intervention.html">Saint-Pierre-le-Viger</a>
       <a class="ville-chip" href="zones-intervention.html">Fontaine-le-Dun</a>
-      <a class="ville-chip" href="zones-intervention.html">Yvetot</a>
+      <a class="ville-chip" href="couvreur-yvetot.html">Yvetot</a>
       <a class="ville-chip" href="zones-intervention.html">Fécamp</a>
-      <a class="ville-chip" href="zones-intervention.html">Dieppe</a>
+      <a class="ville-chip" href="couvreur-dieppe.html">Dieppe</a>
       <a class="ville-chip" href="zones-intervention.html">Sassetot-le-Mauconduit</a>
       <a class="ville-chip" href="zones-intervention.html">Offranville</a>
     </div>
@@ -1502,7 +1502,7 @@
       </span>
     </div>
   </div>
-  <p class="footer-villes">Manneville-ès-Plains · Saint-Valery-en-Caux · Veules-les-Roses · Cany-Barville · Doudeville · Néville · Ourville-en-Caux · Luneray · Blosseville · Saint-Pierre-le-Viger · Fontaine-le-Dun · Yvetot · Fécamp · Dieppe · Sassetot-le-Mauconduit · Offranville</p>
+  <p class="footer-villes">Manneville-ès-Plains · <a href="couvreur-saint-valery-en-caux.html" style="color:inherit">Saint-Valery-en-Caux</a> · Veules-les-Roses · <a href="couvreur-cany-barville.html" style="color:inherit">Cany-Barville</a> · Doudeville · <a href="couvreur-neville.html" style="color:inherit">Néville</a> · Ourville-en-Caux · <a href="couvreur-luneray.html" style="color:inherit">Luneray</a> · Blosseville · Saint-Pierre-le-Viger · Fontaine-le-Dun · <a href="couvreur-yvetot.html" style="color:inherit">Yvetot</a> · Fécamp · <a href="couvreur-dieppe.html" style="color:inherit">Dieppe</a> · Sassetot-le-Mauconduit · Offranville</p>
   <div class="footer-bottom">
     <span>© <span id="footerAnnee">2026</span> <span id="footerNom">GPM Couverture</span> — Couvreur en Seine-Maritime (76)</span>
     <a href="zones-intervention.html">Zones d'intervention</a>
