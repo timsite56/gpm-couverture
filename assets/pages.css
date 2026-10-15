@@ -7,7 +7,7 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --primary:    #0a0a0a;
+  --primary:    #2E8B3E;
   --bg:         #ffffff;
   --text:       #0a0a0a;
   --muted:      rgba(10,10,10,0.60);
@@ -307,3 +307,10 @@ footer { background: var(--footer-bg); padding: 3.5rem 11% 2rem; }
   .trust-item { flex: 0 0 calc(50% - 0.7rem); }
   .footer-grid { grid-template-columns: 1fr; }
 }
+
+/* Logo image GPM (15/10/2026) */
+.nav-logo img.nav-logo-img { width: auto; height: 52px; border-radius: 0; display: block; }
+.nav-logo img.nav-logo-img.logo-light { display: none; }
+nav.nav-transparent:not(.scrolled) .nav-logo img.nav-logo-img.logo-dark { display: none; }
+nav.nav-transparent:not(.scrolled) .nav-logo img.nav-logo-img.logo-light { display: block; filter: drop-shadow(0 2px 8px rgba(0,0,0,0.45)); }
+@media (max-width: 600px) { .nav-logo img.nav-logo-img { height: 44px; } }

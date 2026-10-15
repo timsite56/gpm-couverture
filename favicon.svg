@@ -1,10 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="GPM Couverture">
-  <rect width="64" height="64" rx="14" fill="#9a3412"/>
-  <!-- cheminée -->
-  <rect x="41" y="14" width="6" height="12" rx="1.5" fill="#ffffff" opacity="0.9"/>
-  <!-- pan de toit -->
-  <path d="M32 13 L57 33 L51 33 L32 18.5 L13 33 L7 33 Z" fill="#ffffff"/>
-  <!-- corps / tuiles -->
-  <path d="M32 22 L49 35.5 V51 H15 V35.5 Z" fill="#ffffff" opacity="0.28"/>
-  <path d="M18 38 H46 M18 44 H46" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round" opacity="0.85"/>
+  <rect width="64" height="64" rx="14" fill="#ffffff"/>
+  <path d="M6 40 L26 18 L33 25 L33 13 L38 13 L38 28 L46 18 L58 32 L54 34 L46 25 L32 40 L26 33 L11 42 Z" fill="#52B060"/>
+  <path d="M12 47 L26 31 L40 47 L35 47 L26 37 L17 47 Z" fill="#5E6A78"/>
+  <path d="M34 47 L48 31 L60 47 L55 47 L48 38 L39 47 Z" fill="#5E6A78"/>
 </svg>

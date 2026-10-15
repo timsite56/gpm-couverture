@@ -32,7 +32,7 @@
   var PALETTES = {
     noir: '#0a0a0a', bleu: '#1e6ba3', vert: '#065f46',
     orange: '#9a3412', bordeaux: '#881337', ardoise: '#334155',
-    violet: '#5b21b6', brun: '#78350f', rouge: '#d60a1a'
+    violet: '#5b21b6', brun: '#78350f', rouge: '#d60a1a', gpm: '#2E8B3E'
   };
   function hexToRgb(h) {
     return [parseInt(h.slice(1, 3), 16), parseInt(h.slice(3, 5), 16), parseInt(h.slice(5, 7), 16)];
@@ -43,7 +43,13 @@
     var root = document.documentElement.style;
     root.setProperty('--primary', primary);
 
-    if (nom === 'rouge') {
+    if (nom === 'gpm') {   /* même réglage que l'accueil : vert GPM, textes et pied de page ardoise */
+      root.setProperty('--text', '#2b333c');
+      root.setProperty('--muted', 'rgba(43,51,60,0.62)');
+      root.setProperty('--border', 'rgba(46,139,62,0.14)');
+      root.setProperty('--surface', 'rgba(46,139,62,0.06)');
+      root.setProperty('--footer-bg', '#262d35');
+    } else if (nom === 'rouge') {
       /* rouge vif en accent, texte anthracite — jamais de texte rouge foncé */
       root.setProperty('--text', '#2b3038');
       root.setProperty('--muted', 'rgba(43,48,56,0.62)');

@@ -169,7 +169,7 @@
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
   <link rel="icon" href="favicon.ico" sizes="32x32" />
   <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-  <meta name="theme-color" content="#9a3412" />
+  <meta name="theme-color" content="#2E8B3E" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -949,14 +949,21 @@
       }
       .carousel-dot.active { width: 20px; background: var(--primary); }
     }
-  </style>
+  
+    /* Logo image GPM (15/10/2026) : version couleur sur fond blanc, version à contour blanc sur la photo */
+    .nav-logo img.nav-logo-img { height: 56px; width: auto; display: block; border-radius: 0; }
+    .nav-logo img.nav-logo-img.logo-light { display: none; }
+    nav.nav-transparent:not(.scrolled) .nav-logo img.nav-logo-img.logo-dark { display: none; }
+    nav.nav-transparent:not(.scrolled) .nav-logo img.nav-logo-img.logo-light { display: block; filter: drop-shadow(0 2px 8px rgba(0,0,0,0.45)); }
+    @media (max-width: 600px) { .nav-logo img.nav-logo-img { height: 46px; } }
+</style>
   <script src="https://atelier-sms.autosys-agency.workers.dev/s.js" defer></script>
 </head>
 <body>
 
 <!-- NAV -->
 <nav>
-  <a href="#hero" class="nav-logo" id="navLogo"><span class="brand-accent">GPM</span> <span class="brand-dark">Couverture</span></a>
+  <a href="#hero" class="nav-logo" id="navLogo"><img class="nav-logo-img logo-dark" src="images/logo.png" alt="GPM Couverture" width="600" height="467" /><img class="nav-logo-img logo-light" src="images/logo-light.png" alt="" aria-hidden="true" /></a>
   <ul class="nav-links" id="navLinks">
     <li><a href="#services">Services</a></li>
     <li><a href="#apropos">À propos</a></li>
@@ -1656,7 +1663,7 @@
       return '<span class="brand-accent">' + parts[0] + '</span> <span class="brand-dark">'
              + parts.slice(1).join(' ') + '</span>';
     })(data.nom_entreprise);
-    document.getElementById('navLogo').innerHTML = brandHTML;
+    /* logo image (15/10/2026) : la barre garde le logo, le nom reste en texte dans « À propos » */
 
     const heroEl = document.getElementById('hero');
     heroEl.style.backgroundImage = `url('${data.hero.image}')`;
@@ -1802,7 +1809,7 @@
     const PALETTES = {
       noir:'#0a0a0a', bleu:'#1e6ba3', vert:'#065f46',
       orange:'#9a3412', bordeaux:'#881337', ardoise:'#334155',
-      violet:'#5b21b6', brun:'#78350f'
+      violet:'#5b21b6', brun:'#78350f', gpm:'#2E8B3E'
     };
     const design = data.design || {};
     const primary = PALETTES[design.palette] || '#0a0a0a';
@@ -1811,7 +1818,13 @@
     /* Theming dérivé : --text, --muted, --border, --surface, --footer-bg */
     function hexToRgb(h) { return [parseInt(h.slice(1,3),16), parseInt(h.slice(3,5),16), parseInt(h.slice(5,7),16)]; }
     const isNoir = (primary === '#0a0a0a');
-    if (isNoir) {
+    if (design.palette === 'gpm') {   /* vert du logo GPM, textes et pied de page gris ardoise (comme « COUVERTURE ») */
+      document.documentElement.style.setProperty('--text',      '#2b333c');
+      document.documentElement.style.setProperty('--muted',     'rgba(43,51,60,0.62)');
+      document.documentElement.style.setProperty('--border',    'rgba(46,139,62,0.14)');
+      document.documentElement.style.setProperty('--surface',   'rgba(46,139,62,0.06)');
+      document.documentElement.style.setProperty('--footer-bg', '#262d35');
+    } else if (isNoir) {
       document.documentElement.style.setProperty('--text',      '#0a0a0a');
       document.documentElement.style.setProperty('--muted',     'rgba(10,10,10,0.60)');
       document.documentElement.style.setProperty('--border',    'rgba(10,10,10,0.08)');
